@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ade5e9-186b-42ce-9d96-6bf356e3af07" name="Changes" comment="" />
+    <list default="true" id="19ade5e9-186b-42ce-9d96-6bf356e3af07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/effectivejava/practice/enumstype/DontUseOrdinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/effectivejava/practice/enumstype/stategy/PayrollDay.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -28,8 +34,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DifferentBehaviorEachConstant.executor": "Run",
+    "Application.DontUseOrdinal.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -39,9 +47,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DifferentBehaviorEachConstant">
+  <component name="RunManager" selected="Application.DontUseOrdinal">
     <configuration name="DifferentBehaviorEachConstant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.effectivejava.practice.enumstype.DifferentBehaviorEachConstant" />
+      <module name="effectivejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.effectivejava.practice.enumstype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DontUseOrdinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.effectivejava.practice.enumstype.DontUseOrdinal" />
       <module name="effectivejava" />
       <extension name="coverage">
         <pattern>
@@ -68,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DontUseOrdinal" />
         <item itemvalue="Application.DifferentBehaviorEachConstant" />
         <item itemvalue="Application.Main" />
       </list>
@@ -89,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747474048974</updated>
-      <workItem from="1747474050074" duration="6704000" />
+      <workItem from="1747474050074" duration="13248000" />
     </task>
     <servers />
   </component>
